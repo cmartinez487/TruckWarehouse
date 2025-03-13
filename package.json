@@ -1,0 +1,30 @@
+{
+  "name": "truckwarehouse",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/index.js",
+    "lint": "eslint 'src/**/*.{ts,tsx}' --config eslint.config.js"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "4.21.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
