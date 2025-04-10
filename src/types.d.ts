@@ -5,10 +5,11 @@ export interface DiaryEntry {
     weather: Weather
     visibility: Visibility
     comment: string
+    status: boolean
 }
 
 //export type NonSensitiveInfoDiaryEntry = Pick<DiaryEntry, 'id' | 'date' | 'weather' | 'visibility'>;
 
-export type NonSensitiveInfoDiaryEntry = Omit<DiaryEntry, 'comment'>;
+export type NonSensitiveInfoDiaryEntry = Omit<DiaryEntry, 'comment' | 'status'>;
 
-export type NewDiaryEntry = Omit<DiaryEntry, 'id'>;
+export type NewDiaryEntry = Omit<DiaryEntry, 'id'| 'status'>;
