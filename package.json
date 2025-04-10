@@ -2,7 +2,6 @@
   "name": "truckwarehouse",
   "version": "1.0.0",
   "main": "index.js",
-
   "scripts": {
     "tsc": "tsc",
     "dev": "nodemon",
@@ -12,6 +11,7 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.11",
     "@typescript-eslint/eslint-plugin": "^8.26.1",
     "@typescript-eslint/parser": "^8.26.1",
     "eslint": "^9.22.0",
@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "4.21.2"
+    "express": "4.21.2",
+    "pg": "^8.14.1"
   },
   "keywords": [],
   "author": "",
